@@ -46,6 +46,7 @@ function App() {
   }
 
   const insertToDB = async (url, file) => {
+    //payload to firestore
     const data = {
       url: url,
       nameFile : file.name,
